@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subash's Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="fonts.css" />
+  </head>
+  <body>
+    <section class="hero poppins-bold">
+      <div>
+        <h1 class="poppins-extrabold">Subash Sharma</h1>
+        <p>A Passionate <span class="developer">Student Developer</span></p>
+        <a href="#projects">
+          <button class="poppins-regular" id="view-projects">
+            View Projects
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <section class="social-links">
+      <a
+        href="https://github.com/subashhohai"
+        target="_blank"
+        aria-label="GitHub Profile"
+      >
+        <img src="./files/github.svg" alt="GitHub icon" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/subash-sharma-315029295/"
+        target="_blank"
+        aria-label="LinkedIn Profile"
+      >
+        <img src="./files/linkedin.svg" alt="LinkedIn icon" />
+      </a>
+    </section>
+
+    <!-- Projects start -->
+
+    <section class="projects" id="projects">
+      <h2 class="poppins-bold">PROJECTS</h2>
+      <p class="poppins-regular projects-text">
+        These are some of the professional experiences I have gained:
+      </p>
+
+      <div class="projects-container">
+        <div class="project-card">
+          <img
+            src="./files/channels4_profile.jpg"
+            alt="Voiceover Artist"
+            class="unmasked-logo"
+          />
+          <h3 class="poppins-semibold">Voiceover Artist and Script Writer</h3>
+          <p class="poppins-regular">
+            Created and voiced scripts for various media, contributing to
+            engaging content for
+            <a
+              href="https://www.youtube.com/@UnmaskedNepal"
+              target="_blank"
+              rel="noopener noreferrer"
+              >UnmaskedNepal</a
+            >.
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            src="./files/Profile_banner.png"
+            alt="Blocktune Profile Banner"
+            class="profile-banner"
+          />
+          <h3 class="poppins-semibold">Designer and VIP</h3>
+          <p class="poppins-regular">
+            Worked on design projects for
+            <a
+              href="https://discord.gg/blocktune"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Blocktune</a
+            >
+            and engaged with the community as a VIP.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3 class="poppins-semibold">Formal Owner and Blog Writer</h3>
+          <p class="poppins-regular">
+            Managed and wrote for
+            <a
+              href="https://earninghub.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+              >EarningHub.xyz</a
+            >, a platform that is now closed.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects ends -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
